@@ -1,0 +1,187 @@
+2023-12-08 11:55:26.563 [info] Log level: Info
+2023-12-08 11:55:26.563 [info] Validating found git in: "git"
+2023-12-08 11:55:26.563 [info] Using git "2.34.1" from "git"
+2023-12-08 11:55:26.563 [info] > git rev-parse --show-toplevel [175ms]
+2023-12-08 11:55:26.563 [info] > git rev-parse --git-dir --git-common-dir [23ms]
+2023-12-08 11:55:26.563 [info] Open repository: /home/sss
+2023-12-08 11:55:26.563 [info] No remotes found in the git config file.
+2023-12-08 11:55:26.563 [info] > git config --get commit.template [24ms]
+2023-12-08 11:55:26.563 [info] > git rev-parse --show-toplevel [17ms]
+2023-12-08 11:55:26.563 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [30ms]
+2023-12-08 11:55:26.563 [info] > git rev-parse --show-toplevel [23ms]
+2023-12-08 11:55:26.563 [info] > git rev-parse --show-toplevel [53ms]
+2023-12-08 11:55:26.563 [info] > git rev-parse --show-toplevel [27ms]
+2023-12-08 11:55:26.567 [info] > git rev-parse --show-toplevel [27ms]
+2023-12-08 11:55:26.618 [info] > git rev-parse --show-toplevel [15ms]
+2023-12-08 11:55:26.731 [info] > git status -z -uall [381ms]
+2023-12-08 11:55:26.731 [info] > git rev-parse --show-toplevel [102ms]
+2023-12-08 11:55:27.663 [info] > git config --get commit.template [17ms]
+2023-12-08 11:55:27.663 [info] > git rev-parse --git-dir --git-common-dir [31ms]
+2023-12-08 11:55:27.669 [info] Open repository: /home/sss/laravelapp
+2023-12-08 11:55:27.697 [info] No remotes found in the git config file.
+2023-12-08 11:55:27.713 [info] > git config --get commit.template [23ms]
+2023-12-08 11:55:27.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [18ms]
+2023-12-08 11:55:27.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/08-basic-controllers refs/remotes/08-basic-controllers [15ms]
+2023-12-08 11:55:27.761 [info] > git status -z -uall [29ms]
+2023-12-08 11:55:27.798 [info] > git config --get commit.template [14ms]
+2023-12-08 11:55:27.805 [info] > git status -z -uall [85ms]
+2023-12-08 11:55:27.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/08-basic-controllers refs/remotes/08-basic-controllers [57ms]
+2023-12-08 11:55:27.866 [info] > git status -z -uall [7ms]
+2023-12-08 11:55:28.489 [info] > git check-ignore -v -z --stdin [49ms]
+2023-12-08 11:55:28.490 [info] > git check-ignore -v -z --stdin [39ms]
+2023-12-08 11:55:29.521 [info] > git check-ignore -v -z --stdin [9ms]
+2023-12-08 11:55:29.524 [info] > git check-ignore -v -z --stdin [4ms]
+2023-12-08 11:56:12.474 [info] No remotes found in the git config file.
+2023-12-08 11:56:12.477 [info] > git config --get commit.template [12ms]
+2023-12-08 11:56:12.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [6ms]
+2023-12-08 11:56:12.524 [info] > git status -z -uall [36ms]
+2023-12-08 11:56:49.629 [info] No remotes found in the git config file.
+2023-12-08 11:56:49.631 [info] > git config --get commit.template [9ms]
+2023-12-08 11:56:49.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [6ms]
+2023-12-08 11:56:49.691 [info] > git status -z -uall [47ms]
+2023-12-08 11:56:54.762 [info] No remotes found in the git config file.
+2023-12-08 11:56:54.765 [info] > git config --get commit.template [13ms]
+2023-12-08 11:56:54.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2023-12-08 11:56:54.805 [info] > git status -z -uall [31ms]
+2023-12-08 11:56:59.856 [info] No remotes found in the git config file.
+2023-12-08 11:56:59.859 [info] > git config --get commit.template [11ms]
+2023-12-08 11:56:59.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 11:56:59.890 [info] > git status -z -uall [25ms]
+2023-12-08 11:57:04.942 [info] No remotes found in the git config file.
+2023-12-08 11:57:04.943 [info] > git config --get commit.template [17ms]
+2023-12-08 11:57:04.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 11:57:04.979 [info] > git status -z -uall [19ms]
+2023-12-08 11:57:08.033 [info] > git check-ignore -v -z --stdin [7ms]
+2023-12-08 11:57:10.022 [info] No remotes found in the git config file.
+2023-12-08 11:57:10.024 [info] > git config --get commit.template [10ms]
+2023-12-08 11:57:10.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 11:57:10.045 [info] > git status -z -uall [15ms]
+2023-12-08 11:57:15.084 [info] No remotes found in the git config file.
+2023-12-08 11:57:15.086 [info] > git config --get commit.template [13ms]
+2023-12-08 11:57:15.087 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 11:57:15.135 [info] > git status -z -uall [42ms]
+2023-12-08 11:57:19.470 [info] > git show --textconv :resources/views/contacts/index.blade.php [10ms]
+2023-12-08 11:57:19.472 [info] > git ls-files --stage -- /home/sss/laravelapp/resources/views/contacts/index.blade.php [4ms]
+2023-12-08 11:57:19.482 [info] > git cat-file -s d61f05aa886e6c3c5c81ee3ca06f66525ec663dd [3ms]
+2023-12-08 11:57:20.182 [info] No remotes found in the git config file.
+2023-12-08 11:57:20.183 [info] > git config --get commit.template [10ms]
+2023-12-08 11:57:20.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2023-12-08 11:57:20.230 [info] > git status -z -uall [33ms]
+2023-12-08 11:57:25.272 [info] No remotes found in the git config file.
+2023-12-08 11:57:25.274 [info] > git config --get commit.template [12ms]
+2023-12-08 11:57:25.275 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 11:57:25.315 [info] > git status -z -uall [31ms]
+2023-12-08 12:01:05.233 [info] No remotes found in the git config file.
+2023-12-08 12:01:05.235 [info] > git config --get commit.template [10ms]
+2023-12-08 12:01:05.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [2ms]
+2023-12-08 12:01:05.275 [info] > git status -z -uall [34ms]
+2023-12-08 12:01:10.332 [info] No remotes found in the git config file.
+2023-12-08 12:01:10.334 [info] > git config --get commit.template [10ms]
+2023-12-08 12:01:10.334 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [2ms]
+2023-12-08 12:01:10.370 [info] > git status -z -uall [22ms]
+2023-12-08 12:01:15.421 [info] No remotes found in the git config file.
+2023-12-08 12:01:15.423 [info] > git config --get commit.template [12ms]
+2023-12-08 12:01:15.424 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 12:01:15.462 [info] > git status -z -uall [29ms]
+2023-12-08 12:01:19.097 [info] > git check-ignore -v -z --stdin [8ms]
+2023-12-08 12:01:19.991 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-08 12:01:20.501 [info] No remotes found in the git config file.
+2023-12-08 12:01:20.502 [info] > git config --get commit.template [8ms]
+2023-12-08 12:01:20.504 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:01:20.542 [info] > git status -z -uall [30ms]
+2023-12-08 12:01:25.593 [info] No remotes found in the git config file.
+2023-12-08 12:01:25.595 [info] > git config --get commit.template [13ms]
+2023-12-08 12:01:25.596 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:01:25.641 [info] > git status -z -uall [35ms]
+2023-12-08 12:01:30.753 [info] No remotes found in the git config file.
+2023-12-08 12:01:30.757 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2023-12-08 12:01:30.758 [info] > git config --get commit.template [14ms]
+2023-12-08 12:01:30.823 [info] > git status -z -uall [57ms]
+2023-12-08 12:01:30.914 [info] > git show --textconv :bootstrap-crud-template-master/index.html [10ms]
+2023-12-08 12:01:30.921 [info] > git ls-files --stage -- /home/sss/laravelapp/bootstrap-crud-template-master/index.html [10ms]
+2023-12-08 12:01:35.868 [info] > git config --get commit.template [2ms]
+2023-12-08 12:01:35.885 [info] No remotes found in the git config file.
+2023-12-08 12:01:35.888 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 12:01:35.939 [info] > git status -z -uall [41ms]
+2023-12-08 12:01:37.264 [info] > git show --textconv :resources/views/contacts/show.blade.php [11ms]
+2023-12-08 12:01:37.266 [info] > git ls-files --stage -- /home/sss/laravelapp/resources/views/contacts/show.blade.php [3ms]
+2023-12-08 12:01:37.284 [info] > git cat-file -s 188af0be9dfd5e2220b72c8b7f5686841313b5fc [3ms]
+2023-12-08 12:01:41.404 [info] No remotes found in the git config file.
+2023-12-08 12:01:41.406 [info] > git config --get commit.template [11ms]
+2023-12-08 12:01:41.410 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [7ms]
+2023-12-08 12:01:41.455 [info] > git status -z -uall [39ms]
+2023-12-08 12:01:41.909 [info] > git show --textconv :bootstrap-crud-template-master/index.html [13ms]
+2023-12-08 12:01:41.913 [info] > git ls-files --stage -- /home/sss/laravelapp/bootstrap-crud-template-master/index.html [6ms]
+2023-12-08 12:01:42.205 [info] > git show --textconv :bootstrap-crud-template-master/show.html [10ms]
+2023-12-08 12:01:42.207 [info] > git ls-files --stage -- /home/sss/laravelapp/bootstrap-crud-template-master/show.html [3ms]
+2023-12-08 12:01:46.521 [info] No remotes found in the git config file.
+2023-12-08 12:01:46.521 [info] > git config --get commit.template [12ms]
+2023-12-08 12:01:46.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 12:01:46.562 [info] > git status -z -uall [31ms]
+2023-12-08 12:01:51.604 [info] No remotes found in the git config file.
+2023-12-08 12:01:51.605 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:01:51.605 [info] > git config --get commit.template [12ms]
+2023-12-08 12:01:51.649 [info] > git status -z -uall [34ms]
+2023-12-08 12:01:56.695 [info] No remotes found in the git config file.
+2023-12-08 12:01:56.697 [info] > git config --get commit.template [14ms]
+2023-12-08 12:01:56.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2023-12-08 12:01:56.738 [info] > git status -z -uall [26ms]
+2023-12-08 12:02:01.774 [info] No remotes found in the git config file.
+2023-12-08 12:02:01.776 [info] > git config --get commit.template [11ms]
+2023-12-08 12:02:01.778 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:02:01.826 [info] > git status -z -uall [36ms]
+2023-12-08 12:02:06.869 [info] No remotes found in the git config file.
+2023-12-08 12:02:06.870 [info] > git config --get commit.template [9ms]
+2023-12-08 12:02:06.874 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [6ms]
+2023-12-08 12:02:06.918 [info] > git status -z -uall [28ms]
+2023-12-08 12:03:05.761 [info] No remotes found in the git config file.
+2023-12-08 12:03:05.763 [info] > git config --get commit.template [16ms]
+2023-12-08 12:03:05.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [9ms]
+2023-12-08 12:03:05.818 [info] > git status -z -uall [41ms]
+2023-12-08 12:03:08.335 [info] > git check-ignore -v -z --stdin [2ms]
+2023-12-08 12:03:10.878 [info] No remotes found in the git config file.
+2023-12-08 12:03:10.880 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:03:10.881 [info] > git config --get commit.template [14ms]
+2023-12-08 12:03:10.928 [info] > git status -z -uall [42ms]
+2023-12-08 12:03:15.978 [info] No remotes found in the git config file.
+2023-12-08 12:03:15.980 [info] > git config --get commit.template [12ms]
+2023-12-08 12:03:15.981 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:03:16.020 [info] > git status -z -uall [33ms]
+2023-12-08 12:03:21.063 [info] No remotes found in the git config file.
+2023-12-08 12:03:21.064 [info] > git config --get commit.template [8ms]
+2023-12-08 12:03:21.067 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 12:03:21.099 [info] > git status -z -uall [26ms]
+2023-12-08 12:03:21.962 [info] > git show --textconv :app/Http/Controllers/ContactController.php [8ms]
+2023-12-08 12:03:21.966 [info] > git ls-files --stage -- /home/sss/laravelapp/app/Http/Controllers/ContactController.php [4ms]
+2023-12-08 12:03:21.976 [info] > git cat-file -s 6976bd8379ceab6ab1c3fa3c082dbc58ccdd3d8b [2ms]
+2023-12-08 12:03:26.139 [info] No remotes found in the git config file.
+2023-12-08 12:03:26.140 [info] > git config --get commit.template [10ms]
+2023-12-08 12:03:26.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [1ms]
+2023-12-08 12:03:26.182 [info] > git status -z -uall [35ms]
+2023-12-08 12:03:37.926 [info] No remotes found in the git config file.
+2023-12-08 12:03:37.935 [info] > git config --get commit.template [10ms]
+2023-12-08 12:03:37.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2023-12-08 12:03:37.982 [info] > git status -z -uall [36ms]
+2023-12-08 12:03:54.149 [info] No remotes found in the git config file.
+2023-12-08 12:03:54.151 [info] > git config --get commit.template [14ms]
+2023-12-08 12:03:54.153 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-08 12:03:54.200 [info] > git status -z -uall [38ms]
+2023-12-08 12:03:59.180 [info] > git show --textconv :resources/views/contacts/index.blade.php [6ms]
+2023-12-08 12:03:59.198 [info] > git ls-files --stage -- /home/sss/laravelapp/resources/views/contacts/index.blade.php [19ms]
+2023-12-08 12:03:59.209 [info] > git cat-file -s d61f05aa886e6c3c5c81ee3ca06f66525ec663dd [5ms]
+2023-12-08 12:03:59.235 [info] No remotes found in the git config file.
+2023-12-08 12:03:59.247 [info] > git config --get commit.template [12ms]
+2023-12-08 12:03:59.256 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [10ms]
+2023-12-08 12:03:59.321 [info] > git status -z -uall [58ms]
+2023-12-08 12:04:04.360 [info] No remotes found in the git config file.
+2023-12-08 12:04:04.365 [info] > git config --get commit.template [12ms]
+2023-12-08 12:04:04.366 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [7ms]
+2023-12-08 12:04:04.405 [info] > git status -z -uall [30ms]
+2023-12-08 12:04:09.464 [info] No remotes found in the git config file.
+2023-12-08 12:04:09.469 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2023-12-08 12:04:09.469 [info] > git config --get commit.template [23ms]
+2023-12-08 12:04:09.508 [info] > git status -z -uall [33ms]
+2023-12-08 12:06:18.881 [info] No remotes found in the git config file.
+2023-12-08 12:06:18.882 [info] > git config --get commit.template [9ms]
+2023-12-08 12:06:18.886 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2023-12-08 12:06:18.942 [info] > git status -z -uall [50ms]

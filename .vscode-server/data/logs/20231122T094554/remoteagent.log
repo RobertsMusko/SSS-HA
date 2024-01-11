@@ -1,0 +1,15 @@
+2023-11-22 09:45:54.359 [info] 
+
+
+
+
+2023-11-22 09:45:54.359 [info] Extension host agent started.
+2023-11-22 09:45:54.360 [info] Started initializing default profile extensions in extensions installation folder. file:///home/sss/.vscode-server/extensions
+2023-11-22 09:45:54.379 [info] [127.0.0.1][8fa14172][ManagementConnection] New connection established.
+2023-11-22 09:45:54.385 [info] [127.0.0.1][6374c2a1][ExtensionHostConnection] New connection established.
+2023-11-22 09:45:54.399 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/sss/.vscode-server/extensions
+2023-11-22 09:45:54.696 [info] [127.0.0.1][6374c2a1][ExtensionHostConnection] <1681> Launched Extension Host Process.
+2023-11-22 09:50:54.305 [info] New EH opened, aborting shutdown
+2023-11-22 12:46:29.334 [info] [127.0.0.1][8fa14172][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-11-22 12:46:29.469 [info] [127.0.0.1][6374c2a1][ExtensionHostConnection] <1681> Extension Host Process exited with code: 0, signal: null.
+2023-11-22 12:46:29.470 [info] Last EH closed, waiting before shutting down

@@ -1,0 +1,57 @@
+2023-12-10 13:09:57.041 [info] Log level: Info
+2023-12-10 13:09:57.041 [info] Validating found git in: "git"
+2023-12-10 13:09:57.041 [info] Using git "2.34.1" from "git"
+2023-12-10 13:09:57.041 [info] > git rev-parse --show-toplevel [38ms]
+2023-12-10 13:09:57.163 [info] > git rev-parse --git-dir --git-common-dir [125ms]
+2023-12-10 13:09:57.187 [info] Open repository: /home/sss
+2023-12-10 13:09:57.221 [info] > git config --get commit.template [18ms]
+2023-12-10 13:09:57.229 [info] No remotes found in the git config file.
+2023-12-10 13:09:57.232 [info] > git rev-parse --show-toplevel [21ms]
+2023-12-10 13:09:57.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [15ms]
+2023-12-10 13:09:57.267 [info] > git rev-parse --git-dir --git-common-dir [25ms]
+2023-12-10 13:09:57.277 [info] Open repository: /home/sss/laravelapp
+2023-12-10 13:09:57.394 [info] > git rev-parse --show-toplevel [25ms]
+2023-12-10 13:09:57.510 [info] > git config --get commit.template [162ms]
+2023-12-10 13:09:57.517 [info] > git rev-parse --show-toplevel [27ms]
+2023-12-10 13:09:57.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/08-basic-controllers refs/remotes/08-basic-controllers [64ms]
+2023-12-10 13:09:57.663 [info] > git rev-parse --show-toplevel [95ms]
+2023-12-10 13:09:57.728 [info] > git rev-parse --show-toplevel [34ms]
+2023-12-10 13:09:57.764 [info] > git status -z -uall [102ms]
+2023-12-10 13:09:57.808 [info] > git rev-parse --show-toplevel [49ms]
+2023-12-10 13:09:57.989 [info] > git status -z -uall [736ms]
+2023-12-10 13:09:57.990 [info] > git rev-parse --show-toplevel [94ms]
+2023-12-10 13:09:58.019 [info] > git config --get commit.template [139ms]
+2023-12-10 13:09:59.304 [info] > git check-ignore -v -z --stdin [827ms]
+2023-12-10 13:09:59.310 [info] > git check-ignore -v -z --stdin [803ms]
+2023-12-10 13:09:59.311 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/08-basic-controllers refs/remotes/08-basic-controllers [1255ms]
+2023-12-10 13:09:59.335 [info] > git config --get commit.template [32ms]
+2023-12-10 13:09:59.370 [info] No remotes found in the git config file.
+2023-12-10 13:09:59.403 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [33ms]
+2023-12-10 13:09:59.438 [info] > git status -z -uall [37ms]
+2023-12-10 13:09:59.503 [info] > git status -z -uall [70ms]
+2023-12-10 13:09:59.606 [info] > git show --textconv :resources/views/contacts/index.blade.php [14ms]
+2023-12-10 13:09:59.608 [info] > git ls-files --stage -- /home/sss/laravelapp/resources/views/contacts/index.blade.php [4ms]
+2023-12-10 13:10:00.020 [info] > git cat-file -s d61f05aa886e6c3c5c81ee3ca06f66525ec663dd [404ms]
+2023-12-10 13:10:00.093 [info] > git check-ignore -v -z --stdin [28ms]
+2023-12-10 13:10:00.191 [info] > git check-ignore -v -z --stdin [102ms]
+2023-12-10 13:10:01.529 [info] > git show --textconv :resources/views/contacts/show.blade.php [8ms]
+2023-12-10 13:10:01.533 [info] > git ls-files --stage -- /home/sss/laravelapp/resources/views/contacts/show.blade.php [5ms]
+2023-12-10 13:10:01.545 [info] > git cat-file -s 188af0be9dfd5e2220b72c8b7f5686841313b5fc [3ms]
+2023-12-10 13:10:02.371 [info] No remotes found in the git config file.
+2023-12-10 13:10:02.373 [info] > git config --get commit.template [12ms]
+2023-12-10 13:10:02.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-10 13:10:02.434 [info] > git status -z -uall [47ms]
+2023-12-10 13:10:03.502 [info] > git check-ignore -v -z --stdin [9ms]
+2023-12-10 13:10:03.504 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-10 13:10:05.879 [info] > git show --textconv :app/Http/Kernel.php [7ms]
+2023-12-10 13:10:05.884 [info] > git ls-files --stage -- /home/sss/laravelapp/app/Http/Kernel.php [6ms]
+2023-12-10 13:10:05.894 [info] > git cat-file -s 494c0501b13f3b7a5e700beaf46adcc6eb0a7d74 [1ms]
+2023-12-10 13:10:07.511 [info] > git config --get commit.template [2ms]
+2023-12-10 13:10:07.519 [info] No remotes found in the git config file.
+2023-12-10 13:10:07.522 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [4ms]
+2023-12-10 13:10:07.581 [info] > git status -z -uall [49ms]
+2023-12-10 13:10:12.182 [info] > git check-ignore -v -z --stdin [3ms]
+2023-12-10 13:10:12.634 [info] No remotes found in the git config file.
+2023-12-10 13:10:12.635 [info] > git config --get commit.template [9ms]
+2023-12-10 13:10:12.635 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [1ms]
+2023-12-10 13:10:12.688 [info] > git status -z -uall [43ms]

@@ -1,0 +1,51 @@
+2024-01-11 12:26:32.714 [info] Log level: Info
+2024-01-11 12:26:32.715 [info] Validating found git in: "git"
+2024-01-11 12:26:32.715 [info] Using git "2.34.1" from "git"
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [71ms]
+2024-01-11 12:26:32.715 [info] > git rev-parse --git-dir --git-common-dir [24ms]
+2024-01-11 12:26:32.715 [info] Open repository: /home/sss
+2024-01-11 12:26:32.715 [info] > git config --get commit.template [14ms]
+2024-01-11 12:26:32.715 [info] No remotes found in the git config file.
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [45ms]
+2024-01-11 12:26:32.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [37ms]
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [55ms]
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [65ms]
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [29ms]
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [34ms]
+2024-01-11 12:26:32.715 [info] > git rev-parse --show-toplevel [21ms]
+2024-01-11 12:26:32.728 [info] > git rev-parse --show-toplevel [15ms]
+2024-01-11 12:26:32.844 [info] > git rev-parse --show-toplevel [81ms]
+2024-01-11 12:26:32.872 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-01-11 12:26:32.878 [info] Open repository: /home/sss/laravelapp
+2024-01-11 12:26:32.941 [info] > git config --get commit.template [31ms]
+2024-01-11 12:26:32.963 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/08-basic-controllers refs/remotes/08-basic-controllers [33ms]
+2024-01-11 12:26:32.999 [info] > git status -z -uall [23ms]
+2024-01-11 12:26:33.033 [info] > git config --get commit.template [13ms]
+2024-01-11 12:26:33.056 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/08-basic-controllers refs/remotes/08-basic-controllers [26ms]
+2024-01-11 12:26:33.076 [info] > git status -z -uall [639ms]
+2024-01-11 12:26:34.266 [info] > git status -z -uall [1196ms]
+2024-01-11 12:26:34.289 [info] > git config --get commit.template [33ms]
+2024-01-11 12:26:34.309 [info] No remotes found in the git config file.
+2024-01-11 12:26:34.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [87ms]
+2024-01-11 12:26:34.554 [info] > git status -z -uall [153ms]
+2024-01-11 12:26:35.479 [info] > git check-ignore -v -z --stdin [33ms]
+2024-01-11 12:26:35.480 [info] > git check-ignore -v -z --stdin [27ms]
+2024-01-11 12:26:35.635 [info] > git show --textconv :app/Http/Controllers/ContactController.php [12ms]
+2024-01-11 12:26:35.635 [info] > git ls-files --stage -- /home/sss/laravelapp/app/Http/Controllers/ContactController.php [2ms]
+2024-01-11 12:26:35.650 [info] > git cat-file -s 6976bd8379ceab6ab1c3fa3c082dbc58ccdd3d8b [4ms]
+2024-01-11 12:26:36.364 [info] > git show --textconv :app/Http/Controllers/Controller.php [14ms]
+2024-01-11 12:26:36.367 [info] > git ls-files --stage -- /home/sss/laravelapp/app/Http/Controllers/Controller.php [5ms]
+2024-01-11 12:26:36.378 [info] > git cat-file -s 77ec359ab4de60f6dd2205cbc5b2aab373d8a185 [4ms]
+2024-01-11 12:26:39.560 [info] > git config --get commit.template [4ms]
+2024-01-11 12:26:39.572 [info] No remotes found in the git config file.
+2024-01-11 12:26:39.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [8ms]
+2024-01-11 12:26:39.671 [info] > git status -z -uall [84ms]
+2024-01-11 12:26:41.472 [info] > git check-ignore -v -z --stdin [3ms]
+2024-01-11 12:26:44.770 [info] No remotes found in the git config file.
+2024-01-11 12:26:44.771 [info] > git config --get commit.template [11ms]
+2024-01-11 12:26:44.774 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [5ms]
+2024-01-11 12:26:44.851 [info] > git status -z -uall [68ms]
+2024-01-11 12:26:49.936 [info] No remotes found in the git config file.
+2024-01-11 12:26:49.950 [info] > git config --get commit.template [16ms]
+2024-01-11 12:26:49.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/01-orm-setup refs/remotes/01-orm-setup [3ms]
+2024-01-11 12:26:50.021 [info] > git status -z -uall [63ms]
