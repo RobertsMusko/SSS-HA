@@ -5,48 +5,147 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:32887 (IPv4)
-Extension host agent listening on 32887
+Server bound to 127.0.0.1:33293 (IPv4)
+Extension host agent listening on 33293
 
-[12:16:59] 
-
-
+[10:40:13] 
 
 
-[12:16:59] Extension host agent started.
-[12:16:59] [127.0.0.1][e3dca077][ManagementConnection] New connection established.
-[12:16:59] [127.0.0.1][11fb49ee][ExtensionHostConnection] New connection established.
-[12:16:59] [127.0.0.1][11fb49ee][ExtensionHostConnection] <33617> Launched Extension Host Process.
+
+
+[10:40:13] Extension host agent started.
+[10:40:13] [127.0.0.1][4e567614][ManagementConnection] New connection established.
+[10:40:13] [127.0.0.1][966fd2e9][ExtensionHostConnection] New connection established.
+[10:40:13] [127.0.0.1][966fd2e9][ExtensionHostConnection] <1671> Launched Extension Host Process.
 New EH opened, aborting shutdown
-[12:21:59] New EH opened, aborting shutdown
-[12:26:19] [127.0.0.1][e3dca077][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[12:26:19] [127.0.0.1][11fb49ee][ExtensionHostConnection] <33617> Extension Host Process exited with code: 0, signal: null.
+[10:45:13] New EH opened, aborting shutdown
+[10:59:55] No ptyHost heartbeat after 6 seconds
+[11:31:36] No ptyHost heartbeat after 6 seconds
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[12:32:42] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[12:32:42] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[12:32:44] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[12:32:45] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[12:32:46] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[12:37:12] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+[12:46:32] [127.0.0.1][4e567614][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:46:32] [127.0.0.1][966fd2e9][ExtensionHostConnection] <1671> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[12:26:19] Last EH closed, waiting before shutting down
+[12:46:32] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[12:26:30] Got delay-shutdown request while in shutdown timeout, delaying
+[12:46:48] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[12:26:30] Cancelling previous shutdown timeout
-[12:26:30] [127.0.0.1][32e21d7e][ManagementConnection] New connection established.
-[12:26:30] [127.0.0.1][d5c86064][ExtensionHostConnection] New connection established.
-[12:26:30] [127.0.0.1][d5c86064][ExtensionHostConnection] <34111> Launched Extension Host Process.
-[12:26:51] [127.0.0.1][32e21d7e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[12:26:51] [127.0.0.1][d5c86064][ExtensionHostConnection] <34111> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[12:26:51] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[12:26:51] Last EH closed, waiting before shutting down
-Got delay-shutdown request while in shutdown timeout, delaying
-[12:27:48] Got delay-shutdown request while in shutdown timeout, delaying
-Cancelling previous shutdown timeout
-[12:27:48] Cancelling previous shutdown timeout
-[12:27:48] [127.0.0.1][b966db6d][ManagementConnection] New connection established.
-[12:27:48] [127.0.0.1][499f42cf][ExtensionHostConnection] New connection established.
-[12:27:48] [127.0.0.1][499f42cf][ExtensionHostConnection] <34417> Launched Extension Host Process.
+[12:46:48] Cancelling previous shutdown timeout
+[12:46:48] [127.0.0.1][b3b61062][ManagementConnection] New connection established.
+[12:46:48] [127.0.0.1][eb1409cd][ExtensionHostConnection] New connection established.
+[12:46:48] [127.0.0.1][eb1409cd][ExtensionHostConnection] <17322> Launched Extension Host Process.
 New EH opened, aborting shutdown
-[12:32:48] New EH opened, aborting shutdown
-[13:28:59] No ptyHost heartbeat after 6 seconds
-[13:33:54] [127.0.0.1][c9566d7b][ManagementConnection] New connection established.
-[13:33:54] [127.0.0.1][7641fbad][ExtensionHostConnection] New connection established.
-[13:33:54] [127.0.0.1][7641fbad][ExtensionHostConnection] <36022> Launched Extension Host Process.
-[13:38:54] [127.0.0.1][499f42cf][ExtensionHostConnection] <34417> Extension Host Process exited with code: 0, signal: null.
+[12:51:48] New EH opened, aborting shutdown
+[13:31:35] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

@@ -31,3 +31,40 @@
 2024-01-11 13:33:54.044 [info] [127.0.0.1][7641fbad][ExtensionHostConnection] New connection established.
 2024-01-11 13:33:54.060 [info] [127.0.0.1][7641fbad][ExtensionHostConnection] <36022> Launched Extension Host Process.
 2024-01-11 13:38:54.343 [info] [127.0.0.1][499f42cf][ExtensionHostConnection] <34417> Extension Host Process exited with code: 0, signal: null.
+2024-01-11 14:50:44.247 [info] [127.0.0.1][7641fbad][ExtensionHostConnection] <36022> Extension Host Process exited with code: 0, signal: null.
+2024-01-11 14:50:44.247 [info] Last EH closed, waiting before shutting down
+2024-01-11 14:50:49.359 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-01-11 14:50:49.359 [info] Cancelling previous shutdown timeout
+2024-01-11 14:50:49.424 [info] [127.0.0.1][f7ee29c0][ManagementConnection] New connection established.
+2024-01-11 14:50:49.468 [info] [127.0.0.1][52744a1d][ExtensionHostConnection] New connection established.
+2024-01-11 14:50:49.491 [info] [127.0.0.1][52744a1d][ExtensionHostConnection] <43459> Launched Extension Host Process.
+2024-01-11 14:53:25.126 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-01-11 14:53:25.127 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-01-11 14:53:25.127 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-01-11 14:55:49.360 [info] New EH opened, aborting shutdown
+2024-01-11 15:48:56.705 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-11 16:00:15.759 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-11 17:00:36.905 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:00:45.512 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:32:42.824 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:32:48.240 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:32:51.202 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:32:53.720 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:32:54.582 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-11 17:38:22.356 [info] [127.0.0.1][f7ee29c0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-11 17:38:22.465 [info] [127.0.0.1][52744a1d][ExtensionHostConnection] <43459> Extension Host Process exited with code: 0, signal: null.
+2024-01-11 17:38:22.466 [info] Last EH closed, waiting before shutting down

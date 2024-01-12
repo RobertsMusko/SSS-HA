@@ -216,3 +216,86 @@ php artisan serve --host 0.0.0.0
 cd $HOME/SSS-HA
 php artisan serv--host 0.0.0.0
 php artisan serve --host 0.0.0.0
+git remote add origin https://github.com/RobertsMusko/SSS-HA.git
+git push origin -u "Task01-creating-populating-db"
+php artisan tinker
+cd SSS-HA
+php artisan tinker
+php artisasn serve --host 0.0.0.0
+php artisan serve --host 0.0.0.0
+wget https://github.com/jamesattard/bootstrap-crud-template.git
+wget https://github.com/jamesattard/bootstrap-crud-template/archive/refs/heads/master.zip
+unzip master.zip
+php artisan serve --host 0.0.0.0
+php artisan make:controller CarController
+php artisan make:controller ManufacturerController
+php artisan serve --host 0.0.0.0
+cd SSS-HA
+php artisan serve --host 0.0.0.0
+git remote add origin https://github.com/RobertsMusko/SSS-HA.git
+sudo mysql -u root p#
+sudo mysql -u root -p#
+php artisan make:migration create_manufacturers
+php artisan make:migration create_cars
+php artisan migrate
+php artisan make: model manufacturer
+php artisan make:model manufacturer
+php artisan make:model car
+php artisan tinker
+cd
+git remote add origin https://github.com/RobertsMusko/SSS-HA.git
+git push origin -u "Task01-Creating-populating-DB"
+git log
+git push origin -u "01-orm-setup"
+git push origin -u "01-orm-setup*"
+git remote add origin https://github.com/RobertsMusko/SSS-HA.git
+git checkout -b Task01-creating-populating-db
+git push -u origin Task01-creating-populating-db
+git push origin Task01-creating-populating-db
+cd
+git push origin Task01-creating-populating-db
+git push -u origin Task01-creating-populating-db
+git remote add origin https://github.com/RobertsMusko/SSS-HA.git
+git push -u origin Task01-creating-populating-db
+git add .
+git commit 
+git commit -m "Creating and populating DB"
+git push -u origin Task01-creating-populating-db
+cd SSS-HA
+php artisan --serve host 0.0.0.0
+php artisan serve --host 0.0.0.0
+git push -u origin Task02-Creating-A-mockup-Layout
+git commit -m "Creating the mockup of the layout for the website"
+git commit -a "Creating the mockup of the layout for the website"
+git push -u origin Task02-Creating-A-mockup-Layout
+git commit -a "Creating the mockup of the layout for the website"
+git commit -m "Creating-Mockup-of-layout"
+git add .
+git checkout -b "Task02-Creating-A-mockup-Layout"
+git checkout -b "Task02-Creating-mockup-layout"
+git add .
+cd ..
+git add .
+cd SSS-HA
+git add .
+git branch
+git add .
+git add.
+git branch
+git checkout -b Task02-Creating-mockup-layout
+git checkout Task02-creating-mockup-layout
+git add .
+git commit -m "Adding a mockup of the layout"
+git add "Addinf a mockup of the layout"
+git checkout -b "Task02-mockup-layout"
+git add .
+git status
+git clean -fd
+git restore --staged
+git restore .
+php artisan serve --host 0.0.0.0
+wget https://github.com/jamesattard/bootstrap-crud-template/archive/refs/heads/master.zip
+unzip master.zip
+php artisan serve --host 0.0.0.0
+git checkout --
+php artisan serve --host 0.0.0.0

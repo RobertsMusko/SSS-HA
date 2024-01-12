@@ -80,3 +80,16 @@ $Car->year\040=\040'2021'
 $Car->salesperson_email\040=\040'joe@carozza.com'
 $Car->manufacturer_id\040=\040'2'
 $Car->save()
+use\040App\134Models\134car
+use\040App\134Models\134manufacturer
+$manufacturer=\040manufacturer::first()
+use\040App\134Models\134manufacturer
+use\040App\134Models\134manufacturer
+use\040App\134Models\134car
+$car\040=\040new\040car()
+$car->model\040=\040'civic'
+$car->year\040=\040'2001'
+$car->salesperson_email\040=\040'mike@carozza.com'
+$car->manufacturer_id\040=\040$manufacturer->id
+$car
+$manufacturer\040=\040manufacturer::first()
