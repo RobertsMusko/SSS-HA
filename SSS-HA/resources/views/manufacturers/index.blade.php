@@ -27,18 +27,22 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <th scope="row"></th>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td></td>
-                      <td width="150">
-                        <a href="" class="btn btn-sm btn-circle btn-outline-info" title="Show"><i class="fa fa-eye"></i></a>
-                        <a href="form.html" class="btn btn-sm btn-circle btn-outline-secondary" title="Edit"><i class="fa fa-edit"></i></a>
-                        <a href="#" class="btn btn-sm btn-circle btn-outline-danger" title="Delete" onclick="confirm('Are you sure?')"><i class="fa fa-times"></i></a>
-                      </td>
-                    </tr>
+          
+
+                    @if($manufacturers->count())
+
+                      @foreach ($manufacturers as $index => $manufacturer)
+
+                        <tr>
+                          <th scope="row">{{$index + 1}}</th>
+                          <td>{{$manufacturer -> name}}</td>
+                          <td>{{$manufacturer -> address}}</td>
+                          <td>{{$manufacturer -> phone}}</td>
+                        </tr>
+
+                      @endforeach
+                    @endif
+
                   </tbody>
                 </table> 
 
