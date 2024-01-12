@@ -62,3 +62,13 @@
 2024-01-12 16:15:03.692 [error] AggregateError
     at internalConnectMultiple (node:net:1081:18)
     at afterConnectMultiple (node:net:1532:5)
+2024-01-12 16:24:43.202 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 16:24:43.528 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 16:36:04.221 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-12 16:40:36.558 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)

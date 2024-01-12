@@ -15,28 +15,28 @@
                     <div class="form-group row">
                       <label for="model" class="col-md-3 col-form-label">Model</label>
                       <div class="col-md-9">
-                        <p class="form-control-plaintext text-muted">{{$car->model}}</p>
+                        <p class="form-control-plaintext text-muted">{{}}</p>
                       </div>
                     </div>
 
                     <div class="form-group row">
                       <label for="last_name" class="col-md-3 col-form-label">Year</label>
                       <div class="col-md-9">
-                        <p class="form-control-plaintext text-muted">{{$car->year}}</p>
+                        <p class="form-control-plaintext text-muted">Kuhlman</p>
                       </div>
                     </div>
 
                     <div class="form-group row">
                       <label for="email" class="col-md-3 col-form-label">Salesperson email</label>
                       <div class="col-md-9">
-                        <p class="form-control-plaintext text-muted">{{$car->salesperson_email}}</p>
+                        <p class="form-control-plaintext text-muted">alfred@test.com</p>
                       </div>
                     </div>
 
                     <div class="form-group row">
                       <label for="phone" class="col-md-3 col-form-label">Manufacturer</label>
                       <div class="col-md-9">
-                        <p class="form-control-plaintext text-muted">{{$car->manufacturer->name}}</p>
+                        <p class="form-control-plaintext text-muted">+6286767565656</p>
                       </div>
                     </div>
 
@@ -44,8 +44,8 @@
                     <div class="form-group row mb-0">
                       <div class="col-md-9 offset-md-3">
                           <a href="#" class="btn btn-info">Edit</a>
-                          <a href="#" class="btn btn-outline-danger" onclick="confirm('Are you sure?')">Delete</a>
-                          <a href="{{ route('cars.index') }}" class="btn btn-outline-secondary" >Cancel</a>
+                          <a href="#" class="btn btn-outline-danger">Delete</a>
+                          <a href="index.html" class="btn btn-outline-secondary">Cancel</a>
                       </div>
                     </div>
                   </div>

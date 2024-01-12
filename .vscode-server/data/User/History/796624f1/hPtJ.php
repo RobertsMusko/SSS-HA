@@ -24,12 +24,12 @@ class CarController extends Controller
     }
 
     public function details($id){
-        $car =  car::find($id);
+        $car =  App\Models\car::find($id);
         return view('cars.details', compact('car'));
     }
 
     public function edit($id){
-        $car = car::find($id);
+        $car = App\Models\car::find($id);
         return view('cars.edit', compact('car'));
     }
 }
