@@ -1,0 +1,134 @@
+2024-01-12 14:52:28.513 [info] Extension host with pid 26870 started
+2024-01-12 14:52:28.513 [error] Error: EEXIST: file already exists, open '/home/sss/.vscode-server/data/User/workspaceStorage/b6c4dcbee2b1c14d7c85b04250f182f4/vscode.lock'
+2024-01-12 14:52:28.523 [info] Lock '/home/sss/.vscode-server/data/User/workspaceStorage/b6c4dcbee2b1c14d7c85b04250f182f4/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-01-12 14:52:28.543 [info] Lock '/home/sss/.vscode-server/data/User/workspaceStorage/b6c4dcbee2b1c14d7c85b04250f182f4/vscode.lock': The lock does not look stale, elapsed: 777 ms, giving up.
+2024-01-12 14:52:28.548 [info] Lock '/home/sss/.vscode-server/data/User/workspaceStorage/b6c4dcbee2b1c14d7c85b04250f182f4-1/vscode.lock': Lock acquired.
+2024-01-12 14:52:28.606 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-01-12 14:52:28.608 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-01-12 14:52:28.608 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-01-12 14:52:28.609 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-12 14:52:28.801 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-01-12 14:52:28.802 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-01-12 14:52:29.578 [info] Eager extensions activated
+2024-01-12 14:52:29.578 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-12 14:52:29.579 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-12 15:20:57.954 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2024-01-12 15:22:59.080 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-12 15:46:42.163 [error] [vscode.emmet] provider FAILED
+2024-01-12 15:46:42.165 [error] Error: Unable to find matching pair for { at char 144
+	at r.error (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:22191)
+	at f (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:21421)
+	at u (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:14499)
+	at l (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at A (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at S (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.$b (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:143130)
+	at t.$S.b (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:129467)
+	at t.$S.provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:128478)
+	at we.provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:53068)
+	at /home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:74658
+	at pe.s (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:66141)
+	at pe.$provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:74644)
+	at u.S (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:10829)
+	at u.Q (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:10595)
+	at u.M (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:9647)
+	at u.L (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:8764)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:7567)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:171:7903)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:168:19507)
+2024-01-12 15:47:28.396 [error] [vscode.emmet] provider FAILED
+2024-01-12 15:47:28.396 [error] Error: Unable to consume quoted string at char 288
+	at r.error (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:22191)
+	at o (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:20862)
+	at f (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:21289)
+	at u (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:14499)
+	at l (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at A (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at S (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.$b (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:143130)
+	at t.$S.b (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:129467)
+	at t.$S.provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:128478)
+	at we.provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:53068)
+	at /home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:74658
+	at pe.s (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:66141)
+	at pe.$provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:74644)
+	at u.S (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:10829)
+	at u.Q (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:10595)
+	at u.M (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:9647)
+	at u.L (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:8764)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:7567)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:171:7903)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:168:19507)
+2024-01-12 15:47:29.189 [error] [vscode.emmet] provider FAILED
+2024-01-12 15:47:29.190 [error] Error: Unable to consume quoted string at char 285
+	at r.error (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:22191)
+	at o (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:20862)
+	at f (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:21289)
+	at u (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:14499)
+	at l (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:14549)
+	at /home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:15164
+	at m (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:15271)
+	at A (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:16189)
+	at S (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:16599)
+	at t.$b (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:143130)
+	at t.$S.b (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:129467)
+	at t.$S.provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/emmet/dist/node/emmetNodeMain.js:1:128478)
+	at we.provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:53068)
+	at /home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:74658
+	at pe.s (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:66141)
+	at pe.$provideCompletionItems (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:143:74644)
+	at u.S (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:10829)
+	at u.Q (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:10595)
+	at u.M (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:9647)
+	at u.L (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:8764)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:150:7567)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:171:7903)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at o.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:14039)
+	at d.z (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:17104)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:15556)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at f.acceptChunk (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:11813)
+	at f.value (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:103:11100)
+	at n.y (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:1902)
+	at n.fire (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:80:2119)
+	at n.z (/home/sss/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/workbench/api/node/extensionHostProcess.js:168:19507)
+2024-01-12 16:15:14.603 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'

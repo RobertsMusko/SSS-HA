@@ -38,3 +38,27 @@
 2024-01-12 12:46:48.839 [info] [127.0.0.1][eb1409cd][ExtensionHostConnection] <17322> Launched Extension Host Process.
 2024-01-12 12:51:48.728 [info] New EH opened, aborting shutdown
 2024-01-12 13:31:35.771 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-01-12 13:39:45.633 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-12 13:58:13.779 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 14:08:20.211 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 14:08:21.051 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 14:08:24.171 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 14:08:25.071 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 14:49:48.907 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-12 14:52:27.736 [info] [127.0.0.1][6e3ff609][ManagementConnection] New connection established.
+2024-01-12 14:52:27.768 [info] [127.0.0.1][2fd5bdab][ExtensionHostConnection] New connection established.
+2024-01-12 14:52:27.780 [info] [127.0.0.1][2fd5bdab][ExtensionHostConnection] <26870> Launched Extension Host Process.
+2024-01-12 14:57:28.203 [info] [127.0.0.1][eb1409cd][ExtensionHostConnection] <17322> Extension Host Process exited with code: 0, signal: null.
+2024-01-12 16:15:03.692 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)

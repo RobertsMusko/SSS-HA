@@ -149,3 +149,123 @@ Cancelling previous shutdown timeout
 New EH opened, aborting shutdown
 [12:51:48] New EH opened, aborting shutdown
 [13:31:35] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[13:39:45] No ptyHost heartbeat after 6 seconds
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[13:58:13] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[14:08:20] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[14:08:21] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[14:08:24] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[14:08:25] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
+[14:49:48] No ptyHost heartbeat after 6 seconds
+[14:52:27] [127.0.0.1][6e3ff609][ManagementConnection] New connection established.
+[14:52:27] [127.0.0.1][2fd5bdab][ExtensionHostConnection] New connection established.
+[14:52:27] [127.0.0.1][2fd5bdab][ExtensionHostConnection] <26870> Launched Extension Host Process.
+[14:57:28] [127.0.0.1][eb1409cd][ExtensionHostConnection] <17322> Extension Host Process exited with code: 0, signal: null.
+rejected promise not handled within 1 second: AggregateError
+stack trace: AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+[16:15:03] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 127.0.0.1:8000
+        at afterConnectMultiple (node:net:1519:16) {
+      errno: -111,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '127.0.0.1',
+      port: 8000
+    }
+  ]
+}
