@@ -75,6 +75,12 @@
                     let action = this.getAttribute('href');
                     let form = document.getElementById('form-delete');
                     form.setAttribute('action', action);
+
+                    // Redirect to /cars after deletion
+                    form.addEventListener('submit', function () {
+                        window.location.href = '/cars';
+                    });
+
                     form.submit();
                 }
             });

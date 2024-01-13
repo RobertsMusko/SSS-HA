@@ -10,8 +10,7 @@ document.querySelectorAll('.btn-delete').forEach((button) =>{
             let action = this.getAttribute('href')
             let form = document.getElementById('form-delete')
             form.setAttribute('action', action)
-            form.submit()
+            form.onsubmit()
         }
     })
 })
-

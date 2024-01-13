@@ -55,7 +55,7 @@
           </div>
         </div>
       </div>
-      <form id="form-delete" method="POST" action="{{ route('cars.delete', $car->id) }}" style="display: none">
+      <form id="form-delete" method="POST" style="display: none">
         @method('DELETE')
         @csrf
       </form>
@@ -67,19 +67,6 @@
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script>
-        document.querySelectorAll('.btn-delete-details').forEach((button) => {
-            button.addEventListener('click', function (event) {
-                event.preventDefault();
-                if (confirm('Are you sure?')) {
-                    let action = this.getAttribute('href');
-                    let form = document.getElementById('form-delete');
-                    form.setAttribute('action', action);
-                    form.submit();
-                }
-            });
-        });
-    </script>
 
 
 

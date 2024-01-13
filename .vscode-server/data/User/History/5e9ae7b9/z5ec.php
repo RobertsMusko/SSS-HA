@@ -44,8 +44,8 @@
                     <div class="form-group row mb-0">
                       <div class="col-md-9 offset-md-3">
                           <a href="{{ route('cars.edit', $car->id) }}" class="btn btn-info">Edit</a>
-                          <a href="{{ route('cars.delete', $car->id)}}" class="btn-delete-details btn btn-outline-danger">Delete</a>
-                          <a href="{{ route('cars.index') }}" class="btn btn-outline-secondary" >Cancel</a>
+                          <a href="{{ route('cars.delete', $car->id)}}" class="btn btn-outline-danger">Delete</a>
+                          <a href="{{ route('cars.index') }}" class="btn-delete btn btn-outline-secondary" >Cancel</a>
                       </div>
                     </div>
                   </div>
@@ -55,34 +55,16 @@
           </div>
         </div>
       </div>
-      <form id="form-delete" method="POST" action="{{ route('cars.delete', $car->id) }}" style="display: none">
+      <form id="form-delete" method="POST" style="display: none">
         @method('DELETE')
         @csrf
       </form>
     </main>
 
-    
-
-    <script src="assets/js/app.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script>
-        document.querySelectorAll('.btn-delete-details').forEach((button) => {
-            button.addEventListener('click', function (event) {
-                event.preventDefault();
-                if (confirm('Are you sure?')) {
-                    let action = this.getAttribute('href');
-                    let form = document.getElementById('form-delete');
-                    form.setAttribute('action', action);
-                    form.submit();
-                }
-            });
-        });
-    </script>
-
-
-
+    
   </body>
 </html>
 

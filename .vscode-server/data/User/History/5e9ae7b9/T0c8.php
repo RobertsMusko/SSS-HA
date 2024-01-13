@@ -55,10 +55,6 @@
           </div>
         </div>
       </div>
-      <form id="form-delete" method="POST" action="{{ route('cars.delete', $car->id) }}" style="display: none">
-        @method('DELETE')
-        @csrf
-      </form>
     </main>
 
     

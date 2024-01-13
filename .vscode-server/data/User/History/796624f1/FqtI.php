@@ -70,6 +70,6 @@ class CarController extends Controller
     public function delete($id){
         $car = car::find($id);
         $car->delete();
-        return redirect()->route('cars.index')->with('message', 'Entry deleted successfully.');
+        return back()->with('message', 'Entry deleted successfully.');
     }
 }
