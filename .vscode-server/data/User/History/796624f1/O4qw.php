@@ -62,7 +62,6 @@ class CarController extends Controller
 
         $car = car::find($id);
         $car->update($request->all());
-        return redirect()->route('cars.index')->with('message', 'Car Details changed successfully!');
 
     }
 }

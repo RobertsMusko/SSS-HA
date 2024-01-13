@@ -16,3 +16,24 @@
 2024-01-13 16:34:18.564 [error] AggregateError
     at internalConnectMultiple (node:net:1081:18)
     at afterConnectMultiple (node:net:1532:5)
+2024-01-13 16:36:44.963 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-13 16:49:42.325 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-13 16:52:16.756 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-13 17:41:22.475 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-13 17:41:22.638 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-13 17:41:24.267 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-13 18:10:13.487 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
