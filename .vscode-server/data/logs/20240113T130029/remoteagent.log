@@ -1,0 +1,18 @@
+2024-01-13 13:00:29.113 [info] 
+
+
+
+
+2024-01-13 13:00:29.133 [info] Extension host agent started.
+2024-01-13 13:00:29.231 [info] [127.0.0.1][2faccc2a][ExtensionHostConnection] New connection established.
+2024-01-13 13:00:29.232 [info] [127.0.0.1][b2a30ecc][ManagementConnection] New connection established.
+2024-01-13 13:00:29.461 [info] [127.0.0.1][2faccc2a][ExtensionHostConnection] <1644> Launched Extension Host Process.
+2024-01-13 13:01:26.131 [warning] No ptyHost heartbeat after 6 seconds
+2024-01-13 13:05:39.753 [info] New EH opened, aborting shutdown
+2024-01-13 13:47:48.154 [info] [127.0.0.1][e0637d17][ManagementConnection] New connection established.
+2024-01-13 13:47:48.194 [info] [127.0.0.1][d44f43fc][ExtensionHostConnection] New connection established.
+2024-01-13 13:47:48.211 [info] [127.0.0.1][d44f43fc][ExtensionHostConnection] <2260> Launched Extension Host Process.
+2024-01-13 13:52:48.397 [info] [127.0.0.1][2faccc2a][ExtensionHostConnection] <1644> Extension Host Process exited with code: 0, signal: null.
+2024-01-13 16:34:18.564 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)

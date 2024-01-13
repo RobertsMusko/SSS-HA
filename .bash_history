@@ -299,3 +299,43 @@ unzip master.zip
 php artisan serve --host 0.0.0.0
 git checkout --
 php artisan serve --host 0.0.0.0
+wget https://github.com/jamesattard/bootstrap-crud-template/archive/refs/heads/master.zip
+unzip master.zip
+php artisan serve --host 0.0.0.0
+git add .
+git commit -m "Adding a mockup of the layout"
+git checkout "Task02-Creating-mockup-layout"
+git add .
+git commit -m "Adding a mockup of the layout"
+php artisan serve --host 0.0.0.0
+git push -u origin Task02-Creating-mockup-layout
+git add .
+git commit -m "Creating a mockup of the layout"
+git push origin -u "Task02-Creating-Layout-mockup"
+git push origin -u "Task02-creating-Layout-mockup"
+git push origin -u "Task02-creating-mockup-layout"
+git commit -m "Creating a mockup of the layout"
+git push origin -u "Task02-creating-mockup-layout"
+git add checkout "Task02-adding-layout"
+git add "Task02-adding-layout"
+git add .
+git add . 
+git commit -m "Creating the layout for the website"
+git checkout "Task02-Creating-mockup-layout"
+git push
+php artisan serve --host 0.0.0.0
+git add . 
+git push
+git commit -m "Fixing manufacturers view"
+git push
+php artisan serve --host 0.0.0.0
+git checkout "Task03-Reading-data-from-db"
+git checkout -b "Task03-Reading-data-from-db"
+git add .
+git commit -m "Reading and filtering data from db"
+git commit
+git push
+git push --set-upstream origin Task03-Reading-data-from-db
+php artisan serve --host 0.0.0.0
+git commit -m "Adding view details"
+git push

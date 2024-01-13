@@ -72,3 +72,9 @@
 2024-01-12 16:40:36.558 [error] AggregateError
     at internalConnectMultiple (node:net:1081:18)
     at afterConnectMultiple (node:net:1532:5)
+2024-01-12 16:44:15.855 [error] AggregateError
+    at internalConnectMultiple (node:net:1081:18)
+    at afterConnectMultiple (node:net:1532:5)
+2024-01-12 16:44:35.350 [info] [127.0.0.1][6e3ff609][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-01-12 16:44:35.541 [info] [127.0.0.1][2fd5bdab][ExtensionHostConnection] <26870> Extension Host Process exited with code: 0, signal: null.
+2024-01-12 16:44:35.542 [info] Last EH closed, waiting before shutting down
